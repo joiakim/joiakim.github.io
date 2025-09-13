@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <!-- MathJax CDN for rendering LaTeX math -->
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="/">Home</a> | 
+    <a href="/blogs/">Blogs</a>
+  </nav>
+  <hr>  <!-- Horizontal line separator -->
+
+  {{ content }}  <!-- Where page-specific content goes -->
+
+</body>
+</html>
