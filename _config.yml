@@ -1,0 +1,10 @@
+title: Your Technical Blog
+description: Technical articles on [your topics here, e.g., AI, coding]
+baseurl: ""  # Empty since it's your root github.io site
+url: "https://yourusername.github.io"
+permalink: /blog/:title/  # Makes blog post URLs like /blog/my-post
+markdown: kramdown
+kramdown:
+  math_engine: mathjax  # Enables LaTeX math rendering
+plugins:
+  - jekyll-feed  # Adds RSS feed if you want it later 
