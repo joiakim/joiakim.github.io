@@ -6,9 +6,9 @@ title: Home
 <div class="center-content">
   # Welcome to My Site! 👋
 
-  Hi, I'm [Your Name]. I'm passionate about [your interests, e.g., technology, AI, and open-source coding].
+  <p>Hi, I'm [Your Name]. I'm passionate about [your interests, e.g., technology, AI, and open-source coding].</p>
 
-  Check out my blogs for technical deep dives.
+  <p>Check out my blogs for technical deep dives.</p>
 
   ### Connect with Me
   - Twitter/X: [@yourhandle](https://twitter.com/yourhandle)
