@@ -4,6 +4,21 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <!-- MathJax CDN for rendering LaTeX math -->
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+  <style>
+    body {
+      max-width: 800px;  /* Limits width for readability */
+      margin: 0 auto;    /* Centers the entire body content */
+      padding: 20px;     /* Adds some space */
+      text-align: left;  /* Default text left, but we can override */
+    }
+    nav {
+      text-align: right;  /* Shifts nav tabs to the right */
+      margin-bottom: 10px;
+    }
+    .center-content {
+      text-align: center;  /* For centering specific sections like welcome */
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation Menu -->
