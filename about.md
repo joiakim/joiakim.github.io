@@ -4,9 +4,9 @@ title: About
 ---
 
 <div class="center-content">
-  # About Me
+  
 
-  <p>Brief introduction about yourself and your research interests.</p>
+  <p>Computations🧮:, Intelligence🤖: and complex systems🧠:</p>
 </div>
 
 ## Resume
@@ -18,9 +18,9 @@ title: About
 ## Work Experience
 
 <div class="experience-item">
-  <div class="experience-title">Position Title</div>
-  <div class="experience-company">Company/Institution Name</div>
-  <div class="date">Start Date - End Date (or Present)</div>
+  <div class="experience-title">Teaching Assistant</div>
+  <div class="experience-company">University of Texas at Tyler - Math Department</div>
+  <div class="date">12 Jan, 2026 - Present</div>
   <p>Brief description of your role and key achievements.</p>
 </div>
 
@@ -34,16 +34,16 @@ title: About
 ## Education
 
 <div class="experience-item">
-  <div class="experience-title">Degree (e.g., Ph.D. in Computer Science)</div>
-  <div class="experience-company">University Name</div>
-  <div class="date">Graduation Year</div>
-  <p>Thesis title or specialization if applicable.</p>
+  <div class="experience-title">Master's Degree in Mathematical Sciences</div>
+  <div class="experience-company">University of Texas at Tyler</div>
+  <div class="date">2027</div>
+  <p>Thesis title :.</p>
 </div>
 
 <div class="experience-item">
-  <div class="experience-title">Previous Degree (e.g., M.S. in Engineering)</div>
-  <div class="experience-company">University Name</div>
-  <div class="date">Graduation Year</div>
+  <div class="experience-title">Bachelor's in Mathematical Science</div>
+  <div class="experience-company">Kwame Nkrumah University of Science & Technology</div>
+  <div class="date">2022</div>
 </div>
 
 ## Publications
@@ -73,9 +73,9 @@ title: About
 ## Skills
 
 <div style="text-align: center; margin: 30px 0;">
-  <p><strong>Programming Languages:</strong> Python, Java, C++, JavaScript</p>
-  <p><strong>Frameworks & Tools:</strong> TensorFlow, PyTorch, React, Docker</p>
-  <p><strong>Research Interests:</strong> Machine Learning, NLP, Computer Vision</p>
+  <p><strong>Programming Languages:</strong> Python, C, Haskell, Lean</p>
+  <p><strong>Frameworks & Tools:</strong> TensorFlow, PyTorch </p>
+  <p><strong>Research Sub-Areas & Interests:</strong> Machine Learning & Artificial Intelligence, AI safety, ML theory</p>
 </div>
 
 <div class="center-content" style="margin-top: 50px;">
