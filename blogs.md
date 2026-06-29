@@ -4,7 +4,7 @@ title: Blogs
 ---
 
 <div class="center-content">
-  # My Technical Blogs
+   My Blogs
 
   Here are my latest posts:
 </div>
