@@ -6,11 +6,11 @@ title: Home
 <div class="center-content">
    Hey there!, welcome to My Page! 👋
 
-  <p>Hi, I am Joiakim. I'm passionate about Computations, Intelligent and Complex systems.</p>
+  <p>Hi, I am Joiakim. I'm passionate about Computations and, Intelligent and Complex systems.</p>
 
-  <p>Check out my <a href="/blogs/">blogs</a> for technical deep dives, or visit my <a href="/about/">about page</a> to learn more about my work and research.</p>
+  <p>Check out my <a href="/blogs/">blogs</a>  or visit my <a href="/about/">about page</a> to learn more about my Interest, work and research.</p>
 
-   I write about Philosophy, Economics, Truth, Religion, and etc. Check out my substack and other socials. 
+   I write about Philosophy, Economics, Truth, Religion, and etc on my Substack. Check out my other socials. 
   
   <ul>
     <li><a href="https://corquaerit.substack.com/" target="_blank">Substack: @cor_quaerit</a></li>
