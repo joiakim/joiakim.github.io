@@ -1,4 +1,4 @@
-# <u>AXIOM OF SPECIFICATION</u>
+### <u>AXIOM OF SPECIFICATION</u>
 
 This short blog explores a simple idea in set theory with an extension into Theoretical Computer science. In Set Theory, one of the foundational principles regarded as true (formally called an Axiom) is the axiom of specification, which simply states that "Any definable subclass of a set is a set". Mathematically, defined as:
 |  |
