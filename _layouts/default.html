@@ -3,15 +3,7 @@
 <head>
   <title>{{ page.title }} - {{ site.title }}</title>
   <!-- MathJax CDN for rendering LaTeX math -->
-  <script>
-MathJax = {
-  tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']]
-  }
-};
-</script>
-<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
   <style>
     body {
       max-width: 800px;
