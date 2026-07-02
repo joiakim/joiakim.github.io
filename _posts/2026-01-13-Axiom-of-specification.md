@@ -12,3 +12,4 @@ Which is termed as the Axiom of unrestricted specification. Thus we have that "y
  >Let R={y:P(y)} where P(y) is the property that y $$\notin$$ y (or R is the set of all sets  that are not members of themselves). If R is not a member of itself, then by definition R is a member of itself; yet, if it is a member of itself, then it is not a member of itself, since it is the set of all sets that are not members of themselves.
 
 Clearly restricting from all sets to some sets (i.e. $$y\in$$ z) resolves our logical inconsistency. From the paradox, we can ascertain that "A set of all sets  cannot contain themselves". we can extend this idea to functions. Now suppose we have a recursive function containing self-recursive functions. 
+ ![Alt text](/assets/h3.png)  
