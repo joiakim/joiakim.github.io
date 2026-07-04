@@ -48,11 +48,9 @@ By construction:
 - If  $$M^* $$  halts on input $$M^* $$, then $$M^* $$ was built to do the opposite, so $$M^* $$ loops forever on input $$M^* $$.
 - If $$M^* $$ loops forever on input $$M^* $$, then $$M^* $$ was built to do the opposite, so $$M^* $$ halts on input $$M^* $$.
 
-Either answer contradicts itself. So $$M^*$$ cannot consistently exist but we built it directly from $H$. The only assumption we made was that $H$ exists. That assumption must be the one that's false. Thus no program $H$ can exist that decides, for every program and every input, whether that program halts on that input. Suppose we are interested in the halting property, $$P_{H}$$. Then in set theoretic form, if $$P_{H} \in P_{H}$$, then $$P_{H}$$ should halt yet it loops forever so $$P_{H} \notin P_{H}$$.
-if $$P_{H} \notin P_{H}$$, then $$P_{H}$$ should loop forever, yet it halts so $$P_{H} \in P_{H}$$.
+Either answer contradicts itself. So $$M^*$$ cannot consistently exist but we built it directly from $$H$$. The only assumption we made was that $$H$$ exists. That assumption must be the one that's false. Thus no program $H$ can exist that decides, for every program and every input, whether that program halts on that input. Suppose we are interested in the halting property, $$P_{H}$$. Then we can reconstruct our argument as, if $$P_{H} \in P_{H}$$, then $$M^* $$ should halt yet it loops forever so $$P_{H} \notin P_{H}$$. If $$P_{H} \notin P_{H}$$, then $$M^* $$ should loop forever, yet it halts so $$P_{H} \in P_{H}$$.
 
 **Conclusion: In both cases self-referencing breaks the property of universality.**
-
 
 
 
