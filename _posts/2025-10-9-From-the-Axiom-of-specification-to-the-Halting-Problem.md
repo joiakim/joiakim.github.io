@@ -2,7 +2,7 @@
 
 This short blog explores a simple idea in set theory and shows how the same idea reappears in the theory of computation.
 
-#### Part I: The Axiom of Specification
+### Part I: The Axiom of Specification
 
 In set theory, the **Axiom of Specification** states that *any definable subclass of a set is itself a set*. Formally:
 
@@ -10,7 +10,7 @@ $$\forall z:\exists x: \forall y:(y\in x\iff (y \in z  \wedge P(y)))$$
 
 where $$P(y)$$ is a property (a well-formed formula).
 
-This axiom also goes by other names, such as the Axiom of Restricted Comprehension. Notice that in this definition, $$y$$ is *restricted*: it must both satisfy our property $P$ **and** already belong to some existing set $$z$$. If we strip away that restriction, dropping the requirement $$y \in z$$, we're left with:
+This axiom also goes by other names, such as the Axiom of Restricted Comprehension. Notice that in this definition, $$y$$ is *restricted*: it must both satisfy our property $$P$$ **and** already belong to some existing set $$z$$. If we strip away that restriction, dropping the requirement $$y \in z$$, we're left with:
 
 $$\exists x: \forall y:(y\in x\iff  P(y))$$
 
@@ -23,9 +23,9 @@ This is where things break. Logician Bertrand Russell discovered the following i
 > If $$R \in R$$, then by the defining property of $$R$$, $$R \notin R$$ — a contradiction.
 > If $$R \notin R$$, then $$R$$ satisfies the defining property, so $$R \in R$$ — also a contradiction.
 
-Either way, we get a contradiction. The problem traces back to unrestricted comprehension: it let us conjure $R$ into existence from nothing but a property, with no set $z$ to draw its elements from. Restricted comprehension blocks this move, since $R$ would first have to be carved out of some *already-existing* set $$z$$. This is why modern set theory adopts restricted, not unrestricted, comprehension as an axiom.
+Either way, we get a contradiction. The problem traces back to unrestricted comprehension: it let us conjure $R$ into existence from nothing but a property, with no set $$z$$ to draw its elements from. Restricted comprehension blocks this move, since $$R$$ would first have to be carved out of some *already-existing* set $$z$$. This is why modern set theory adopts restricted, not unrestricted, comprehension as an axiom.
 
-#### Part II: The Halting Problem
+### Part II: The Halting Problem
 
 The **Halting Problem** asks: does there exist a program $$H$$ that, given any program $$P$$ and any input $$I$$, can always correctly decide whether $$P$$ halts or runs forever on $$I$$?
 
@@ -53,7 +53,7 @@ if $$P_{H} \notin P_{H}$$, then $$P_{H}$$ should loop forever, yet it halts so $
 
 **Conclusion: In both cases self-referencing breaks the property of universality.**
 
-## The Parallel
+
 
 
 | Set Theory | Computability Theory |
